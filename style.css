@@ -15,11 +15,8 @@ body {
 }
 
 .main-container {
-    padding: 7em;
-    margin: 10em;
-
-    display: grid;
-    place-items: center;
+    padding: 13em;
+    margin: 20em;
 
     background: rgba(107, 242, 209, 0.55);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -49,7 +46,7 @@ body {
 
 .card-container__title {
     display: flex;
-    text-align: center;
+    justify-content: center;
 
     margin-bottom: 0.5em;
     text-decoration:underline solid blue;
@@ -59,12 +56,11 @@ body {
 }
 
 .card-container-calculate {
-    margin: 0em;
-    padding: 2em;
-
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    margin-top: 1em;
+    padding: 8em;
 
     background: rgba(14, 37, 236, 0.6);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -87,5 +83,21 @@ body {
 }
 
 .card-container__form--input-price {
-    right: 50%;
+    position: relative;
+    
+    left: 7em;
+
+}
+
+.card-container__form--input-discount {
+    position: relative;
+    left: 7em;
+}
+
+.button__total {
+    position: relative;
+    top: 2em;
+    right: 7em;
+
+ 
 }
